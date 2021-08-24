@@ -1,0 +1,158 @@
+/* header */
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 132px;
+  color: var(--dark);
+}
+
+.header .nav {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 30;
+  padding-top: 42px;
+  transition: 0.5s;
+}
+
+.header .nav.scroll {
+  background: #fff;
+  padding: 0;
+  box-shadow: -2px -2px 6px 0px;
+}
+
+.header .nav .logo {
+  text-indent: -9999px;
+  width: 172px;
+  height: 90px;
+  background: url(../images/logo.png) center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  margin-left: 155px;
+}
+
+.header .nav .gnb {
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  align-items: center;
+  letter-spacing: 0.18em;
+}
+
+.header .nav .gnb li {
+  margin: 0 42px;
+}
+
+.header .nav .gnb li a {
+  padding: 10px;
+}
+
+/* .header .nav .gnb .color,
+.header .nav .language {
+  color: var(--bg);
+} */
+
+.header .nav .gnb .color_snb,
+.header .nav .color_snb {
+  color: var(--dark);
+}
+
+.header .nav .gnb li:nth-child(5) {
+  margin: 0;
+}
+
+.header .nav .gnb li i {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.language {
+  margin-right: 185px;
+  margin-top: 32px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.language .none.on {
+  visibility: visible;
+  height: 26px;
+}
+
+.language .kor {
+  line-height: 26px;
+  padding: 0 2px;
+}
+
+.language .none {
+  width: 166%;
+  height: 0;
+  box-sizing: border-box;
+  color: #fff;
+  background: var(--nam);
+  border: 2px solid var(--nam);
+  visibility: hidden;
+  transition: 0.2s;
+  cursor: pointer;
+  overflow: hidden;
+  line-height: 20px;
+}
+
+.language span i {
+  font-size: 26px;
+  cursor: pointer;
+  position: absolute;
+  right: -25px;
+  top: 1px;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  background: #3d434d;
+  clear: both;
+}
+
+.footer .inner {
+  width: 1170px;
+  height: 120px;
+  color: #fff;
+  padding: 60px 0;
+  margin: 0 auto;
+}
+
+.footer .inner .text p {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.footer .inner .text p:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-top: 10px;
+}
+
+.footer .inner .line {
+  width: 100%;
+  height: 1px;
+  margin-top: 28px;
+  background: #fff;
+}
+
+.footer .inner .text p:last-child {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  margin-top: 67px;
+}
+/* footer__end */

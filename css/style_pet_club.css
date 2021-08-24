@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&display=swap");
+
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+:root {
+  --dark: #2e2e2e;
+  --gray: #848484;
+  --nam: #57606f;
+  --bg: #f6f6f8;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: var(--bg);
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.parallax-slider {
+  left: 0 !important;
+}
+
+/* 섹션_main_image */
+.main_image {
+  width: 100%;
+  height: 450px;
+  /* background: url(../images/2p_main2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.main_image .contents .info {
+  padding: 180px;
+}
+
+.main_image .contents .info .text {
+  display: flex;
+  font-size: 44px;
+  font-weight: 100;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 10px;
+  color: #fff;
+}
+
+.main_image .contents .info .text p {
+  margin: 8px;
+}
+
+.main_image .contents .info .text p:nth-child(2n) {
+  font-weight: 400;
+}
+
+.main_image .contents .info h1 {
+  font-size: 96px;
+  font-weight: bold;
+  letter-spacing: 0.5em;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 24px;
+}
+
+/* 섹션_main_image__end */
+
+/* 섹션_education */
+.education {
+  width: 100%;
+  height: 862px;
+  background: #fff;
+}
+
+.education .contents {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.contents .circle_line {
+  position: relative;
+  align-items: center;
+  display: flex;
+  left: 49%;
+  padding-top: 120px;
+  width: 960px;
+}
+
+.contents .circle_line .circle {
+  text-indent: -9999px;
+  width: 35px;
+  height: 34px;
+  border-radius: 20px;
+  background: var(--nam);
+}
+
+.contents .circle_line .line {
+  text-indent: -9999px;
+  width: 960px;
+  height: 1px;
+  background: var(--nam);
+}
+
+.education .contents .info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education .contents .info h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: var(--nam);
+  margin-top: 60px;
+}
+
+.education .contents .info p {
+  font-size: 18px;
+  font-weight: 100;
+  color: var(--dark);
+  text-align: center;
+  margin-top: 50px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+}
+
+.education .contents .puppy {
+  width: 400px;
+  height: 330px;
+  margin-left: 165px;
+  margin-right: 100px;
+}
+
+.education .contents .container {
+  display: flex;
+  align-items: center;
+  margin-top: 86px;
+}
+
+.education .contents .text h3 {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  color: var(--nam);
+}
+
+.education .contents .text p:nth-child(2) {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: -2px;
+  color: var(--dark);
+  margin-top: 10px;
+  margin-bottom: 24px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+}
+
+.education .contents .text p:nth-child(4) {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: -2px;
+  color: var(--dark);
+  margin-top: 10px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+}
+/* 섹션_education__end */
+
+/* 섹션_school_goal */
+.school_goal {
+  width: 1170px;
+  height: 912px;
+  margin: 0 auto;
+}
+
+.school_goal h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: var(--nam);
+  padding-top: 47px;
+  padding-bottom: 90px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.school_goal .info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1170px;
+}
+
+.school_goal .info .title {
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--nam);
+  letter-spacing: 2px;
+}
+
+.school_goal .info .img_01 {
+  width: 370px;
+  height: 300px;
+  text-indent: -9999px;
+  background: url(../images/leadership.jpg) center no-repeat;
+  background-size: cover;
+  margin-top: 16px;
+}
+
+.school_goal .info .box {
+  width: 370px;
+  height: 150px;
+  background: #fff;
+}
+
+.school_goal .info .box .text_box {
+  padding: 18px 43px 27px 31px;
+}
+
+.school_goal .info .box .goal {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--nam);
+  margin-bottom: 13px;
+}
+
+.school_goal .info .box p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: var(--dark);
+}
+
+.school_goal .info .img_02 {
+  width: 370px;
+  height: 300px;
+  text-indent: -9999px;
+  background: url(../images/puppyschool.jpg) center no-repeat;
+  background-size: cover;
+  margin-top: 16px;
+}
+
+.school_goal .info .img_03 {
+  width: 370px;
+  height: 300px;
+  text-indent: -9999px;
+  background: url(../images/dietschool.jpg) center no-repeat;
+  background-size: cover;
+  margin-top: 16px;
+}
+/* 섹션_school_goal__end */
+
+/* 섹션_sosial_club */
+.social_club {
+  width: 100%;
+  height: 970px;
+  background: #fff;
+}
+
+.social_club .contents {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.social_club .contents h2 {
+  font-size: 48px;
+  font-weight: 400;
+  color: var(--nam);
+  padding-top: 47px;
+  padding-bottom: 90px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.social_club .info .container {
+  width: 1170px;
+  height: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social_club .info .img {
+  width: 370px;
+  height: 510px;
+  text-indent: -9999px;
+  background: url(../images/cat.jpg) center no-repeat;
+  background-size: cover;
+  margin-left: 100px;
+}
+
+.social_club .text {
+  width: 566px;
+  color: var(--nam);
+  margin: 74px 100px 86px 130px;
+}
+
+.social_club .info h4 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 34px;
+}
+
+.social_club .info p {
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: -0.04em;
+  line-height: 24px;
+}
+
+.social_club .info p span {
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: -0.04em;
+  line-height: 24px;
+}
+
+.social_club .info .line {
+  text-indent: -9999px;
+  width: 470px;
+  height: 1px;
+  background: var(--nam);
+  margin: 63px 0;
+}
+/* 섹션_sosial_club__end */
